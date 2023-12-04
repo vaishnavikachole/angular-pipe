@@ -1,0 +1,11 @@
+
+<div class="container">
+    <div class="card" style="padding: 20px; margin:150px">
+        <h2 class="text-danger">
+        My name is {{biodata.name | uppercase}}, I was born in {{biodata.born | date : 'shortDate'}}.
+        I am {{biodata.age | number}} year old.I got {{biodata.boards | number:'3.3-4'}} percentage in 12th class.
+        my salary expectation is {{biodata.salary | currency:'AUD' : 'code'}}
+        </h2> 
+    </div>
+
+</div>
